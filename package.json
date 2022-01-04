@@ -6,12 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
   "devDependencies": {
     "husky": "^7.0.4",
     "jest": "^27.4.5",
